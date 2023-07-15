@@ -1,0 +1,187 @@
+{
+    "recipes" : [
+        {   
+            "id" : 1,
+            "imgMain" : "https://www.derica.it/media/recipe/generated_polpette_con_passata_datterino_cassandra_raccoltoecucinato.jpg.858x884_q85_crop_upscale.jpg",
+            "title" : "Polpettine di miglio con salsa datterino",
+            "description" : "Cassandra di Raccolto e Cucinato ci propone una ricetta saporita e in cui il sapore fresco della salsa datterino si sposa alla perfezione con le fragranti polpettine di miglio." ,
+            "type" : "Secondo, Piatto unico",
+            "difficulty" : "Facile",
+            "timeToPrep" : 45,
+            "ingredients" : [
+                "Passata di datterino 570 g => 150ml",
+                "Curcuma => 1/2 cucchiaino",
+                "Farina di riso => 1 o 2 cucchiai, all'occorrenza",
+                "Miglio => 60gr",
+                "Olio EVO => q.b.",
+                "Pepe => 1 pizzico",
+                "Pomodori secchi => 80gr",
+                "Prezzemolo => 3 ciuffetti",
+                "Tahina (da sostituire all'uovo per la versione vegan => 2 cucchiaini",
+                "Uovo => 1",
+                "Zucchina => 1"
+            ],
+            "usedProductTitle" : "Prodotto utilizzato",
+            "usedProductImg" : "https://www.derica.it/media/products/format/datterino.png",
+            "usedProductDescription" : "Passata di Datterino",
+            "preparation" : [
+                {
+                    "preparationTitle" : "Per le polpette: ",
+                    "procedures" : [
+                        "1 - Cuocere il miglio per assorbimento in acqua fredda (60 g di miglio/240 ml di acqua) per 15 minuti.",
+                        "2 - Grattugiare la zucchina e cuocerla in padella con un filo di olio EVO per 3-4 minuti.",
+                        "3 - In una ciotola, unire le zucchine, il miglio, il prezzemolo tritato, la curcuma, un pizzico di pepe e la crema tahina oppure l’uovo, ed eventualmente la farina qualora servisse per compattare le polpette. Amalgamare il composto con le mani e formare 10-12 polpette; cuocere in padella in olio EVO qualche minuto per lato."
+                    ]
+                },
+                {
+                    "preparationTitle" : "Per la salsa: ",
+                    "procedures" : [
+                        "1 - Mettere in ammollo in acqua tiepida i pomodori secchi e lasciarli dissalare. Versare nel frullatore i pomodori secchi reidratati e opportunamente risciacquati, l’olio EVO e la passata di datterino.",
+                        "2 - Frullare per pochi secondi fino ad ottenere una salsa cremosa."
+                    ]
+                }
+            ],
+            "tip" : "Servire i burger accompagnandoli con la salsa di datterino e, se piace, qualche fogliolina di menta."
+        },
+        {   
+            "id" : 2,
+            "imgMain" : "https://www.derica.it/media/recipe/generated_de_rica_burger_anna_fabbri.jpg.858x884_q85_crop_upscale.jpg",
+            "title" : "Burger di fagioli borlotti con ketchup home made",
+            "description" : "Una ricetta tanto golosa quanto sana, perché tutta preparata in casa! Sono i burger di Anna Fabbri, online Nina Healthy Stories:",
+            "type" : "Piatto unico",
+            "difficulty" : "Media",
+            "timeToPrep" : 90,
+            "ingredients" : [
+                "Borlotti al naturale 400gr => 500gr",
+                "Aceto => 50ml",
+                "Cannella => q.b.",
+                "Carote => q.b.",
+                "Cavolo viola => q.b.",
+                "Cipolla dorata => 1 e mezza",
+                "Coriandolo in polvere => 1 cucchiaino",
+                "Cumino in polvere => 1 cucchiaino",
+                "Farina di mais => 70gr",
+                "Fecola di patate 1 uccchiaino",
+                "Lattuga => q.b.",
+                "Noce moscata => q.b.",
+                "Olio extravergine di oliva => 40ml",
+                "Panini per Hamburger => 5",
+                "Paprika dolce => 1 cucchiaino",
+                "Passata di datterino De Rica => 400ml",
+                "Prezzemolo => q.b.",
+                "Sale => 1 pizzico",
+                "Senape delicata => 1 cucchiaio",
+                "Triplo concentrato di pomodoro => 1 cucchiaio",
+                "Zenzero => q.b.",
+                "Zucchero => 50gr"
+            ],
+            "usedProductTitle" : "Prodotto utilizzato",
+            "usedProductImg" : "https://www.derica.it/media/products/format/400_98lcYGG.png",
+            "usedProductDescription" : "Borlotti al naturale",
+            "preparation" : [
+                {
+                    "preparationTitle" : "Per i burger: ",
+                    "procedures" : [
+                        "1 - Inserire in un mixer tutti gli ingredienti ad esclusione della farina di mais e frullare bene.",
+                        "2 - Versare il composto in una terrina, aggiungere la farina di mais e con l’aiuto di un coppapasta creare le forme dei burger.",
+                        "3 - Riporre in frigorifero e lasciar riposare almeno 30 minuti in modo che il composto si rassodi.",
+                        "4 - Cuocere in padella antiaderente ben calda per una decina di minuti o comunque fino a doratura."
+                    ]
+                },
+                {
+                    "preparationTitle" : "Per il ketchup: ",
+                    "procedures" : [
+                        "1 - Affettare la cipolla e farla appassire con l'olio in un pentolino; in una ciotolina, sciogliete lo zucchero con l'aceto, quindi aggiungete la fecola, mescolando molto bene per evitare grumi.",
+                        "2 - Aggiungere la passata di pomodoro alla cipolla e lasciare insaporire, unire anche gli aromi (cannella, noce moscata e zenzero).",
+                        "3 - Aggiungere il composto di aceto e frullare con il minipimer per un composto liscio e omogeneo.",
+                        "4 - Mettere il fuoco al minimo, coprire con coperchio e cuocere per circa 1 ora, facendo attenzione a non far attaccare il tutto, quindi andare a mescolare ogni tanto.",
+                        "5 - Una volta che avrà raggiunto la densità giusta (deve essere cremoso ma fluido), spegnere il fuoco e lasciare raffreddare completamente, quindi riporre in un vasetto e far riposare in frigo per almeno mezz'ora.",
+                        "6 - Il ketchup fatto in casa è pronto per farcire il panino!"
+                    ]
+                }
+            ],
+            "tip" : ""
+        },
+        {   
+            "id" : 3,
+            "imgMain" : "https://www.derica.it/media/recipe/generated_risovenere_roberta_gaccione.jpg.858x884_q85_crop_upscale.jpg",
+            "title" : "Riso venere con crema di ceci e zucca",
+            "description" : "Un delicato piatto di Roberta Gaccione, ai fornelli \"Spaghetti al Sugo\": buono, sano e facile da preparare, lo trovate fra le proposte del nostro Ricettario per la Pausa Pranzo!",
+            "type" : "Primo",
+            "difficulty" : "Facile",
+            "timeToPrep" : 30,
+            "ingredients" : [
+                "Ceci al naturale 400gr => 200gr",
+                "Curcuma => 1 cucchiaino",
+                "Olio EVO => q.b.",
+                "Riso venere => 180gr",
+                "Rosmarino => 1 rametto",
+                "Sale => q.b.",
+                "Salvia => 4 foglie",
+                "Zucca => 150gr"
+            ],
+            "usedProductTitle" : "Prodotto utilizzato",
+            "usedProductImg" : "https://www.derica.it/media/products/format/400_Z7Fxo7R.png",
+            "usedProductDescription" : "Ceci al naturale",
+            "preparation" : [
+                {
+                    "preparationTitle" : "Preparazione: ",
+                    "procedures" : [
+                        "1 - Per preparare il riso venere con crema di ceci e zucca iniziate col cuocere il riso in abbondante acqua salata. Nel frattempo, in un pentolino fate bollire la zucca tagliata a cubetti ed i ceci (lasciatene da parte 20 g).",
+                        "2 - Quando i ceci e la zucca saranno cotti, scolateli e poneteli in una ciotola; aggiungete il sale e la curcuma e frullate il tutto.",
+                        "3 - In una padella scaldate un filo d’olio di oliva con la salvia e il rosmarino; quando l’olio sarà caldo, aggiungete i ceci messi da parte in precedenza. Fate cuocere per 5/7 minuti.",
+                        "4 - Prendete un piatto e versatevi un primo strato di crema. Con l’aiuto di un coppapasta, disponete al centro il riso venere cotto e scolato. Sopra il riso aggiungete i ceci cotti in padella.",
+                        "5 - Il vostro piatto di riso venere con crema di ceci e zucca è pronto per essere gustato!"
+                    ]
+                }
+            ],
+            "tip" : ""
+        },
+        {   
+            "id" : 4,
+            "imgMain" : "https://www.derica.it/media/recipe/generated_DeRica_Pizzette_Roberta_DallAlba.jpg.858x884_q85_crop_upscale.jpg",
+            "title" : "Pizzette salamino piccante e cipolle caramellate",
+            "description" : "Pepperoni pizza? Sì ma con il tocco dolce delle cipolle caramellate, la corposità della polpa fine De Rica e... in versione pizzette!",
+            "type" : "Piatto unico",
+            "difficulty" : "Media",
+            "timeToPrep" : 210,
+            "ingredients" : [
+                "Polpa fine 400gr => 400gr",
+                "Aceto balsamico => q.b.",
+                "Acqua tiepida => 300gr",
+                "Cipolle => 2",
+                "Farina 00 => 500gr",
+                "Lievito secco 4gr",
+                "Mozzarella => 250gr",
+                "Olio EVO => 3 o 4 cucchiai",
+                "Salamino piccante => 70gr",
+                "Sale => 1 cucchiaino e mezzo",
+                "Zucchero => 1 cucchiaino e mezzo"
+            ],
+            "usedProductTitle" : "Prodotto utilizzato",
+            "usedProductImg" : "https://www.derica.it/media/products/format/polpa-fine.png",
+            "usedProductDescription" : "Polpa fine",
+            "preparation" : [
+                {
+                    "preparationTitle" : "Preparazione: ",
+                    "procedures" : [
+                        "1 - Nella ciotola grande della planetaria versare la farina, lo zucchero e il lievito, attivare a velocità bassa con il gancio piatto.",
+                        "2 - Unire gradualmente l’acqua tiepida e aspettare che sia incorporata.",
+                        "3 - Unire il sale e infine l'olio. Togliere il gancio piatto per mettere quello impastatore.",
+                        "4 - Se l’impasto risulta leggermente duro, aggiungere un altro po’ di acqua gradualmente. Impastare per circa 8-10 minuti fino a ottenere un impasto liscio e malleabile.",
+                        "5 - Coprire la ciotola con un panno umido o pellicola trasparente, mettere in luogo tiepido (ad esempio il forno con SOLO la luce accesa), a lievitare per circa due ore.",
+                        "6 - Nel frattempo tagliare la mozzarella a striscioline e metterla a scolare su uno scolapasta con sotto una ciotola (poi riporre in frigo).",
+                        "7 - Preparare le cipolle caramellate: affettare le cipolle e farle cuocere in pentola con 3 cucchiai di olio EVO. All’inizio a fuoco vivace, senza mescolare troppo spesso (le cipolle dovranno avere il tempo di dorarsi. Lasciare dorare, poi mescolare, e così via).",
+                        "8 - Cuocere le cipolle una ventina di minuti, mescolando sempre più frequentemente per evitare che si attacchino. Aggiungere mezzo cucchiaio circa di aceto balsamico e sale, mescolare e poi spegnere. Far raffreddare su un piatto.",
+                        "9 - Passate due ore, dividere l’impasto in 5 (o di più, se si vogliono pizzette più piccole), pirlare (ossia arrotondare l’impasto facendolo girare tra le mani per dare una forma sferica regolare), mettere le palline su una teglia foderata da carta forno e coprire con pellicola trasparente (ma in modo che non tocchi le palline). Far riposare per 10 minuti così che l’impasto sia più malleabile. ",
+                        "10 - Passati i 10 minuti, stendere e formare le pizzette. Coprire nuovamente e far lievitare un’ora.",
+                        "11 - Preriscaldare il forno statico a 250 gradi, condire le pizzette con polpa fine De Rica, mozzarella, cipolle caramellate, e salamino piccante.",
+                        "12 - Cuocere per circa 15 minuti (questo dipenderà anche dal forno, controllare la cottura della base alzando le pizzette con una paletta. Se non dovesse essere cotta ma la superficie sì, coprire quest’ultima con un pezzo di carta stagnola). Se vi piace una mozzarella meno cotta: condire con solo pomodoro, cuocere qualche minuto poi aggiungere mozzarella, cipolle e salamino.",
+                        "13 - Eventualmente ultimare con foglie di basilico (o poco timo fresco)."
+                    ]
+                }
+            ],
+            "tip" : "L’impasto si potrà realizzare a mano o in planetaria. Se fatto a mano richiederà solo un po’ di olio di gomito in più, Se avanzerà della polpa: gustare in semplicità facendo una pasta al pomodoro o dei crostini con mozzarella!"
+        }
+    ]
+}
