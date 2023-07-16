@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [RecipesController::class, 'index'])->name('home');
 Route::get('/ricetta{id}', [RecipesController::class, 'show'])->name('dettaglio');
+Route::get('/ricetta/{difficulty}', [RecipesController::class, 'filtered'])->name('filtro');

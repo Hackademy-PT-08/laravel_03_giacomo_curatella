@@ -7,16 +7,15 @@ use Illuminate\Support\Facades\Http;
 
 class RecipesController extends Controller
 {
+    public $percorso = 'json/recipes.json';
     
     public function index(){
-        $percorso = 'json/recipes.json';
-        $recipes = json_decode(file_get_contents($percorso), true);
+        $recipes = json_decode(file_get_contents($this->percorso), true);
         return view('home', ['ricette' => $recipes]);
     }
 
     public function show($id) {
-        $percorso = 'json/recipes.json';
-        $recipes = json_decode(file_get_contents($percorso), true);
+        $recipes = json_decode(file_get_contents($this->percorso), true);
 
         foreach($recipes as $index){
             foreach($index as $recipe){
@@ -25,5 +24,18 @@ class RecipesController extends Controller
                 }
             }
         }
+    }
+
+    public function filtered($difficulty){
+        $recipes = json_decode(file_get_contents($this->percorso), true);
+        $filteredRecipes = [];
+        foreach($recipes as $index){
+            foreach($index as $ricetta){
+                if($difficulty == $ricetta['difficulty']){
+                    array_push($filteredRecipes, $ricetta);
+                }
+            }
+        }
+        return view('filtro', ['ricette' => $filteredRecipes]);
     }
 }

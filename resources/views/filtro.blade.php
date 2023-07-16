@@ -47,67 +47,56 @@
             </nav>
         </header>
 
-       <section class="container-fluid p-5">
-        <!-- PARTE 1 -->
-        <div class="row">
-            <!-- SINISTRA -->
-            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
-                <h2 class="text-center robo py-5"><strong>{{ $ricetta['title']}}</strong></h2>
-                <div class="d-flex justify-content-center gap-5 border-0 bg-transparent py-5">
-                    <a href="{{ route('filtro', ['difficulty' => $ricetta['difficulty']]) }}" class="text-danger"><p class=" corsivo"><i class="fa-solid fa-kitchen-set me-2 champange"></i>{{ $ricetta['difficulty']}}</p></a>
-                    <p class=" corsivo"><i class="fa-solid fa-clock-rotate-left me-2 champange"></i>{{ $ricetta['timeToPrep']}}</p>
-                    <p class=" corsivo"><i class="fa-solid fa-utensils me-2 champange"></i>{{ $ricetta['type']}}</p>
-                </div>
-                <p class="text-center corsivo">{{ $ricetta['description']}}</p>
-                <p class="py-5"><i class="fa-solid fa-angles-down fa-3x" id="freccia"></i></p>
-            </div>
-            <!-- DESTRA -->
-            <div class="col-md-6">
-                <img src="{{ $ricetta['imgMain'] }}" alt="" class="img-fluid rounded-4">
-            </div>
-        </div>
-
-        <!-- PARTE 2 -->
-        <div class="row py-5 bg-white mt-5">
-            <p class="text-center mb-5 corsivo">Ingredienti</p>
-            @foreach($ricetta['ingredients'] as $ingredienti)
-            <div class="col-md-6 py-3">
-                <p class="corsivo">{{ $ingredienti}}</p>
-                <hr>
-            </div>
-            @endforeach
-            
-            
-        </div>
-
-        <!-- PARTE 3 -->
-        <div class="row py-5 bg-white">
-            <!-- SINISTRA -->
-            <div class="col-md-6 d-flex flex-column align-items-center">
-                <p class="h4 robo text-center m-0 p-0">{{ $ricetta['usedProductTitle'] }}</p>
-                <img src="{{ $ricetta['usedProductImg'] }}" alt="" class="img-fluid" style="width: 50vh;">
-                <p class="h4 robo text-center">{{ $ricetta['usedProductDescription'] }}</p>
-            </div>
-            <!-- DESTRA -->
-            <div class="col-md-6 d-flex flex-column justify-content-center">
-                <p class="h4 robo m-0 py-4">{{ $ricetta['preparation'][0]['preparationTitle']}}</p>
-                @foreach($ricetta['preparation'][0]['procedures'] as $procedura)
+        <!-- SLOGAN -->
+        <section class="container py-5">
+            <div class="row">
                 <div class="col-12">
-                    <p>{{ $procedura}}</p>
-                    <hr>
+                    <h1 class="text-uppercase text-center robo">Ricette Italiane: I milgiori piatti del mondo</h1>
+                    <p class="text-center corsivo">Cucina Mediterranea, ricette veloci e piatti della grande tradizione italiana, regione per regione!</p>
                 </div>
-                @endforeach
-                <p class="corsivo text-center py-5">{{ $ricetta['tip'] }}</p>
             </div>
-        </div>
-       </section>
+        </section>
+
+        <!-- HERO -->
+        <hr>
+        <section class="container-fluid py-5">
+            <div class="row">
+                <div class="col-12 hero p-0">
+                    
+                </div>
+            </div>
+        </section>
+        <hr>
 
         
+        <!-- LSIT OF PRODUCT -->
+        <section class="container-fluid p-md-5 p-0">
+            <div class="row">
+                <h2 class="text-center mb-3 corsivo">Ricette con difficoltà: <span class="robo text-danger">"{{ $ricette[0]['difficulty'] }}"</span></h2>
+                @foreach($ricette as $recipe)
+                <div class="col-md-6 px-4">
+                    <div class="card mb-5 border-0 p-3 bg-transparent">
+                        <div class="cardImg p-0 rounded-3 border-0" style="background-image: url('{{ $recipe['imgMain'] }}')">
+                            <img src="{{ $recipe['imgMain'] }}" alt="" class="img-fluid d-none">
+                        </div>
+                        <div class="card-body py-4">
+                            <p class="h4 text-center text-truncate robo">{{ $recipe['title']}}</p>
+                            <p class="text-center small text-truncate corsivo">{{ $recipe['description']}}</p>
+                        </div>
+                        <div class="card-footer py-1 d-flex justify-content-center gap-5 border-0 bg-transparent">
+                            <p class=" corsivo"><i class="fa-solid fa-kitchen-set me-2 champange"></i>{{ $recipe['difficulty']}}</p>
+                            <p class=" corsivo"><i class="fa-solid fa-clock-rotate-left me-2 champange"></i>{{ $recipe['timeToPrep']}}</p>
+                            <p class=" corsivo"><i class="fa-solid fa-utensils me-2 champange"></i>{{ $recipe['type']}}</p>
+                        </div>
+                    </div>
+                    </div>
+                @endforeach
+            </div>
+        </section>
 
 
     </main>
     
-    <script src="/js/main.js"></script>
     <script src="https://kit.fontawesome.com/018c0fd7b3.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
